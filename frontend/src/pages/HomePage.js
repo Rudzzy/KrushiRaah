@@ -41,7 +41,7 @@ const HomePage = () => {
       {/* Minimal header overlay for homepage */}
       <header className="homepage-header">
         <div className="hp-left">
-          <Link to="/">
+          <Link to="/KrushiRaah">
             <img src={logo} alt="KrushiRaah" className="hp-logo" />
           </Link>
         </div>
