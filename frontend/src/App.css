@@ -1,0 +1,131 @@
+/* 🌍 Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* 🟩 Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  padding: 10px 20px;
+  color: rgb(255, 252, 252);
+}
+
+
+/* 🔗 Navbar Links */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #fef08a; /* pastel yellow */
+  text-decoration: underline;
+}
+
+/* 🖼️ Logo Styling */
+.navbar-logo {
+  height: 130px;
+  border-radius: 6px;
+  object-fit: contain;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.2); /* subtle glow */
+}
+
+/* 🧩 Right Section: Dropdown + Language */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* 🌐 Language Buttons */
+.language-switch button {
+  background-color: rgb(19, 144, 31);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.language-switch button:hover {
+  background-color: #fef08a;
+  color: #0a8c0a;
+}
+
+
+/*-------------------------------------------🔽 Dropdown Feature-----------------------------*/
+
+/* 🔽 Dropdown Container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* 🔘 Dropdown Toggle Button */
+.dropdown-toggle {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  color: #fef08a;
+}
+
+/* 📂 Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(8, 21, 8, 0.95); /* deep green with slight transparency */
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  padding: 10px 0;
+  z-index: 1000;
+  min-width: 220px;
+  backdrop-filter: blur(6px);
+}
+
+/* 🧠 Show on Hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* 📎 Dropdown Links */
+.dropdown-menu a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+  background-color: #0f1f0f;
+  color: #fef08a;
+}

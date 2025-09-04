@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+flask
+flask_cors
+requests
+pandas
+lighgbm
+joblib
