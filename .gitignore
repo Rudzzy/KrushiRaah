@@ -1,0 +1,44 @@
+frontend/node_modules/
+# --- General ---
+.DS_Store
+Thumbs.db
+*.log
+.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# --- Python (Flask backend) ---
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/instance/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/.vscode/
+
+# --- Node.js / React (frontend) ---
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/.cache/
+frontend/.next/
+frontend/dist/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.vscode/
+
+# --- System / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
