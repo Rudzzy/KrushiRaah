@@ -48,14 +48,14 @@ function App() {
   <div className="dropdown">
     <button className="dropdown-toggle">{t("services")} ▾</button>
     <div className="dropdown-menu">
-      <Link to="/crop-recomendation">{t("crop")}</Link>
-      <Link to="/disease-detection">{t("disease")}</Link>
-      <Link to="/weather-forecast">{t("weather")}</Link>
-      <Link to="/crop-rotation">{t("rotation")}</Link>
-      <Link to="/fertilizer">{t("fertilizer")}</Link>
-      <Link to="/profitability">{t("profit")}</Link>
-      <Link to="/chat">{t("chatbot")}</Link>
-      <Link to="/market-prices">{t("marketprices")}</Link>
+      <Link to="KrushiRaah/crop-recomendation">{t("crop")}</Link>
+      <Link to="KrushiRaah/disease-detection">{t("disease")}</Link>
+      <Link to="KrushiRaah/weather-forecast">{t("weather")}</Link>
+      <Link to="KrushiRaah/crop-rotation">{t("rotation")}</Link>
+      <Link to="KrushiRaah/fertilizer">{t("fertilizer")}</Link>
+      <Link to="KrushiRaah/profitability">{t("profit")}</Link>
+      <Link to="KrushiRaah/chat">{t("chatbot")}</Link>
+      <Link to="KrushiRaah/market-prices">{t("marketprices")}</Link>
     </div>
   </div>
 
@@ -70,15 +70,15 @@ function App() {
       <ChatProvider>
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        <Route path="/crop-recomendation" element={<CropRecommendation />} />
-        <Route path="/disease-detection" element={<DiseaseDetection />} />
-        <Route path="/weather-forecast" element={<WeatherForecast />} />
-        <Route path="/crop-rotation" element={<CropRotation />} />
-        <Route path="/fertilizer" element={<FertilizerRecommendation />} />
-        <Route path="/profitability" element={<ProfitabilityDashboard />} />
-        <Route path="/market-prices" element={<MarketPrices />} />
+        <Route path="KrushiRaah/crop-recomendation" element={<CropRecommendation />} />
+        <Route path="KrushiRaah/disease-detection" element={<DiseaseDetection />} />
+        <Route path="KrushiRaah/weather-forecast" element={<WeatherForecast />} />
+        <Route path="KrushiRaah/crop-rotation" element={<CropRotation />} />
+        <Route path="KrushiRaah/fertilizer" element={<FertilizerRecommendation />} />
+        <Route path="KrushiRaah/profitability" element={<ProfitabilityDashboard />} />
+        <Route path="KrushiRaah/market-prices" element={<MarketPrices />} />
         {/* <Route path="/chatbot" element={<VoiceChatBot />} /> */}
-        <Route path="/chat" element={<FullChatPage />} />
+        <Route path="KrushiRaah/chat" element={<FullChatPage />} />
       </Routes>
       <Chatbot />
       </ChatProvider>
