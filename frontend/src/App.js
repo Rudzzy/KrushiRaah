@@ -33,7 +33,7 @@ function App() {
   return (
     <div>
       {/* Navbar - hidden on homepage to allow full-bleed slides */}
-      {location.pathname !== "/" && (
+      {location.pathname !== "/KrushiRaah" && (
       <nav className="navbar">
   {/* Left: Logo */}
   <div className="nav-left">
