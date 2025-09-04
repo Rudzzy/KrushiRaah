@@ -50,14 +50,14 @@ const HomePage = () => {
           <div className="hp-dropdown">
             <span className="hp-toggle">{t("services")} ▾</span>
             <div className="hp-menu">
-              <Link to="/crop-recomendation">{t("crop")}</Link>
-              <Link to="/disease-detection">{t("disease")}</Link>
-              <Link to="/weather-forecast">{t("weather")}</Link>
-              <Link to="/crop-rotation">{t("rotation")}</Link>
-              <Link to="/fertilizer">{t("fertilizer")}</Link>
-              <Link to="/profitability">{t("profit")}</Link>
-              <Link to="/chatbot">{t("chatbot")}</Link>
-              <Link to="/market-prices">{t("marketprices")}</Link>
+              <Link to="/KrushiRaah/crop-recomendation">{t("crop")}</Link>
+              <Link to="/KrushiRaah/disease-detection">{t("disease")}</Link>
+              <Link to="/KrushiRaah/weather-forecast">{t("weather")}</Link>
+              <Link to="/KrushiRaah/crop-rotation">{t("rotation")}</Link>
+              <Link to="/KrushiRaah/fertilizer">{t("fertilizer")}</Link>
+              <Link to="/KrushiRaah/profitability">{t("profit")}</Link>
+              <Link to="/KrushiRaah/chatbot">{t("chatbot")}</Link>
+              <Link to="/KrushiRaah/market-prices">{t("marketprices")}</Link>
             </div>
           </div>
           <LanguageDropdown />
