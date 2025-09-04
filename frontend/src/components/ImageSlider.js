@@ -205,7 +205,7 @@ export default function ImageSlider({ onSlideChange }) {
                 )}
                 <h2 className="krushiraah-subtitle">{t(img.paragraphKey)}</h2>
                 <div className="hero-ctas">
-                  <Link to="/crop-recomendation" className="cta primary">{t("getCropAdvice")}</Link>
+                  <Link to="/KrushiRaah/crop-recomendation" className="cta primary">{t("getCropAdvice")}</Link>
                 </div>
 
                 {/* Widgets row: weather + market ticker shown on first slide for focus */}
