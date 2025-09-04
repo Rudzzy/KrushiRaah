@@ -37,7 +37,7 @@ function App() {
       <nav className="navbar">
   {/* Left: Logo */}
   <div className="nav-left">
-    <Link to="/">
+    <Link to="/KrushiRaah">
       <img src={logo} alt="AI Crop Advisor Logo" className="navbar-logo" />
     </Link>
   </div>
