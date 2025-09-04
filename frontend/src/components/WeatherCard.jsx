@@ -55,7 +55,7 @@ export default function WeatherCard() {
   async function fetchByLatLon(latitude, longitude) {
     try {
       setLoading(true);
-      const res = await fetch("http://localhost:5000/weather-forecast", {
+      const res = await fetch("https://krushiraah.onrender.com/weather-forecast", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ lat: latitude, lon: longitude })

@@ -20,7 +20,7 @@ function MarketPrices() {
     e.preventDefault();
     try {
       setLoading(true);
-      const response = await fetch("http://127.0.0.1:5000/market-prices", {
+      const response = await fetch("https://krushiraah.onrender.com/market-prices", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ crop, state: stateLoc, district }),

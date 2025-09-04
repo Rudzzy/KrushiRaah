@@ -50,7 +50,7 @@ function DiseaseDetection() {
     formData.append("file", file);
 
     try {
-      const response = await fetch("http://localhost:5000/detect-disease", {
+      const response = await fetch("https://krushiraah.onrender.com/detect-disease", {
         method: "POST",
         body: formData,
       });

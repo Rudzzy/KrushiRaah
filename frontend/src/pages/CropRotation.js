@@ -10,7 +10,7 @@ function CropRotation() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/crop-rotation", {
+      const response = await fetch("https://krushiraah.onrender.com/crop-rotation", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ crop }),

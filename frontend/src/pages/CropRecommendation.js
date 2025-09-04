@@ -428,7 +428,7 @@ function CropRecommendation() {
       
       // Optional: Still call backend for additional insights (if available)
       try {
-        const response = await fetch("http://localhost:5000/recommend-crop", {
+        const response = await fetch("https://krushiraah.onrender.com/recommend-crop", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(soilData),

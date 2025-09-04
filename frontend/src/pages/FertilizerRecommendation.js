@@ -19,7 +19,7 @@ function FertilizerRecommendation() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:5000/fertilizer", {
+      const response = await fetch("https://krushiraah.onrender.com/fertilizer", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

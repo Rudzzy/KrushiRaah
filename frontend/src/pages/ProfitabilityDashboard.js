@@ -18,7 +18,7 @@ function ProfitabilityDashboard() {
     e.preventDefault();
     try {
       setLoading(true);
-      const response = await fetch("http://127.0.0.1:5000/profitability", {
+      const response = await fetch("https://krushiraah.onrender.com/profitability", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ crop }),
