@@ -33,11 +33,11 @@ function App() {
   return (
     <div>
       {/* Navbar - hidden on homepage to allow full-bleed slides */}
-      {location.pathname !== "/" && (
+      {location.pathname !== "/KrushiRaah" && (
       <nav className="navbar">
   {/* Left: Logo */}
   <div className="nav-left">
-    <Link to="/">
+    <Link to="/KrushiRaah">
       <img src={logo} alt="AI Crop Advisor Logo" className="navbar-logo" />
     </Link>
   </div>
@@ -48,14 +48,14 @@ function App() {
   <div className="dropdown">
     <button className="dropdown-toggle">{t("services")} ▾</button>
     <div className="dropdown-menu">
-      <Link to="KrushiRaah/crop-recomendation">{t("crop")}</Link>
-      <Link to="KrushiRaah/disease-detection">{t("disease")}</Link>
-      <Link to="KrushiRaah/weather-forecast">{t("weather")}</Link>
-      <Link to="KrushiRaah/crop-rotation">{t("rotation")}</Link>
-      <Link to="KrushiRaah/fertilizer">{t("fertilizer")}</Link>
-      <Link to="KrushiRaah/profitability">{t("profit")}</Link>
-      <Link to="KrushiRaah/chat">{t("chatbot")}</Link>
-      <Link to="KrushiRaah/market-prices">{t("marketprices")}</Link>
+      <Link to="/KrushiRaah/crop-recomendation">{t("crop")}</Link>
+      <Link to="/KrushiRaah/disease-detection">{t("disease")}</Link>
+      <Link to="/KrushiRaah/weather-forecast">{t("weather")}</Link>
+      <Link to="/KrushiRaah/crop-rotation">{t("rotation")}</Link>
+      <Link to="/KrushiRaah/fertilizer">{t("fertilizer")}</Link>
+      <Link to="/KrushiRaah/profitability">{t("profit")}</Link>
+      <Link to="/KrushiRaah/chat">{t("chatbot")}</Link>
+      <Link to="/KrushiRaah/market-prices">{t("marketprices")}</Link>
     </div>
   </div>
 
@@ -69,16 +69,16 @@ function App() {
       {/* Routes (placeholders for now) */}
       <ChatProvider>
       <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route path="KrushiRaah/crop-recomendation" element={<CropRecommendation />} />
-        <Route path="KrushiRaah/disease-detection" element={<DiseaseDetection />} />
-        <Route path="KrushiRaah/weather-forecast" element={<WeatherForecast />} />
-        <Route path="KrushiRaah/crop-rotation" element={<CropRotation />} />
-        <Route path="KrushiRaah/fertilizer" element={<FertilizerRecommendation />} />
-        <Route path="KrushiRaah/profitability" element={<ProfitabilityDashboard />} />
-        <Route path="KrushiRaah/market-prices" element={<MarketPrices />} />
+        <Route path="/KrushiRaah" element={<HomePage/>} />
+        <Route path="/KrushiRaah/crop-recomendation" element={<CropRecommendation />} />
+        <Route path="/KrushiRaah/disease-detection" element={<DiseaseDetection />} />
+        <Route path="/KrushiRaah/weather-forecast" element={<WeatherForecast />} />
+        <Route path="/KrushiRaah/crop-rotation" element={<CropRotation />} />
+        <Route path="/KrushiRaah/fertilizer" element={<FertilizerRecommendation />} />
+        <Route path="/KrushiRaah/profitability" element={<ProfitabilityDashboard />} />
+        <Route path="/KrushiRaah/market-prices" element={<MarketPrices />} />
         {/* <Route path="/chatbot" element={<VoiceChatBot />} /> */}
-        <Route path="KrushiRaah/chat" element={<FullChatPage />} />
+        <Route path="/KrushiRaah/chat" element={<FullChatPage />} />
       </Routes>
       <Chatbot />
       </ChatProvider>
