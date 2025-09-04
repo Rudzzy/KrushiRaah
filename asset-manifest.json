@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KrushiRaah/static/css/main.57c2f8db.css",
-    "main.js": "/KrushiRaah/static/js/main.1e80dd13.js",
+    "main.js": "/KrushiRaah/static/js/main.b7ffa03f.js",
     "static/media/farm_background.png": "/KrushiRaah/static/media/farm_background.4b8910cfadd736b68d1b.png",
     "static/media/logo.jpg": "/KrushiRaah/static/media/logo.7387c2528f64580dfe70.jpg",
     "index.html": "/KrushiRaah/index.html",
     "main.57c2f8db.css.map": "/KrushiRaah/static/css/main.57c2f8db.css.map",
-    "main.1e80dd13.js.map": "/KrushiRaah/static/js/main.1e80dd13.js.map"
+    "main.b7ffa03f.js.map": "/KrushiRaah/static/js/main.b7ffa03f.js.map"
   },
   "entrypoints": [
     "static/css/main.57c2f8db.css",
-    "static/js/main.1e80dd13.js"
+    "static/js/main.b7ffa03f.js"
   ]
 }
